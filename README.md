@@ -1,8 +1,10 @@
 # SQL.RU-parser
 get_pages_sqlru.py.
 
-Returns a list of all pages from SQL.RU forums that contain topics of the given author and contain given search string. Unlike built-in SQL.RU search, It returns a separate line for every page, not for every topic. It its move convenient because a topic can contain hundreeds of pages and only one of them contains the information required.
-The list is returned in CSV format and contains topic names and page URLs.
+Forms a file with a list of all pages from SQL.RU forums. The list can be filtered by author name and given search string. Unlike built-in SQL.RU search, a separate line is formed for every page, not for every topic. It its move convenient because a topic can contain hundreeds of pages and only one of them contains the information required.
+The list is returned in the following format:
+Topic name|Page URL.
+It can be imported to MS Excel as a CSV file
 
 1. Run get_pages_sqlru.py
 
@@ -11,3 +13,13 @@ The list is returned in CSV format and contains topic names and page URLs.
 3. When prompted enter search string if necessary.
 
 4. When prompted ented output file name.
+
+get_pages_sqlru.py
+
+Forms a file with a list of all topics from SQL forums in the following format:
+Section|Topic|Author|Date|URL
+It can be imported to MS Excel as a CSV file
+
+1. Run get_pages_sqlru.py
+
+2. When prompted ented output file name.
