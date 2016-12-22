@@ -3,7 +3,7 @@ get_topics_sqlru.py
 
 Forms a file with a list of all topics from SQL forums in the following format:
 
-Section|Topic|Author|Date|Topic URL
+Section|Topic name|Author|Date|Topic URL
 
 It can be imported to MS Excel as a CSV file
 
