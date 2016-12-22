@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import settings
 import urllib.request as req
 import binascii
 import datetime
@@ -76,8 +75,7 @@ def get_html(url,padding):
 
 def main():
     global f
-    if settings.proxy_conn_string !='':
-         print("Using proxy: " + settings.proxy_conn_string)
+
     file_name = input("Output file name: (sqlru.csv by default): ")
     if file_name == '':
          file_name = 'sqlru.csv'
